@@ -171,6 +171,39 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/img/icon-arrow-light.png": {
+		"ft": 32768,
+		"iS": 1507,
+		"oA": 0,
+		"oAP": "/img/icon-arrow-light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/icon-facebook.png": {
+		"ft": 32768,
+		"iS": 492,
+		"oA": 0,
+		"oAP": "/img/icon-facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/icon-phone.png": {
+		"ft": 32768,
+		"iS": 1656,
+		"oA": 0,
+		"oAP": "/img/icon-phone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/landair-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,

@@ -8,12 +8,16 @@
 </head>
 <body <?php body_class();?>>
 
-<?php wp_nav_menu(array('theme_location' => 'top', 'container' => '')); ?>
+<div class="top">
+  <?php wp_nav_menu(array('theme_location' => 'top', 'container' => '')); ?>
+</div>
 
-<a href="<?php echo site_url(); ?>"><img src="landair-logo.svg" alt="<?php echo get_bloginfo('name'); ?>"></a>
+<div class="header">
+  <a href="<?php echo site_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landair-logo.svg" alt="<?php echo get_bloginfo('name'); ?>" class="logo"></a>
 
-<?php wp_nav_menu(array('theme_location' => 'main', 'container' => '')); ?>
+  <?php wp_nav_menu(array('theme_location' => 'main', 'container' => '')); ?>
 
-<?php if ( is_active_sidebar('header')) : ?>
-  <?php dynamic_sidebar('header'); ?>
-<?php endif; ?>
+  <?php if ( is_active_sidebar('header')) : ?>
+    <?php dynamic_sidebar('header'); ?>
+  <?php endif; ?>
+</div>

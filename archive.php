@@ -3,13 +3,17 @@
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
-		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+		<div class="container">
+			<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+		</div>
 
 	<?php endwhile; ?>
 <?php else : ?>
 
-	<h1>404 &mdash; Page not found</h1>
-	<p>This page cannot be found.</p>
+	<div class="container">
+		<h1>404 &mdash; Page not found</h1>
+		<p>This page cannot be found.</p>
+	</div>
 
 <?php endif; ?>
 
