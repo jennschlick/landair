@@ -3,6 +3,7 @@
 /*-----------------------------------------------------------------------------------*/
 
 // Utilities
+@import 'partials/normalize';
 @import 'partials/reset';
 @import 'partials/fonts';
 @import 'partials/functions';
@@ -11,8 +12,8 @@
 @import 'partials/grid';
 
 // Components
-@import 'partials/header';
 @import 'partials/footer';
+@import 'partials/header';
 @import 'partials/menus';
 @import 'partials/typography';
 
