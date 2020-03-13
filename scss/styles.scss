@@ -2,16 +2,18 @@
 /* Styles
 /*-----------------------------------------------------------------------------------*/
 
+// Bootstrap
+// v4.4.1
+@import 'bootstrap/bootstrap';
+
 // Utilities
 @import 'partials/normalize';
 @import 'partials/reset';
 @import 'partials/fonts';
-@import 'partials/functions';
-@import 'partials/mixins';
 @import 'partials/variables';
-@import 'partials/grid';
 
 // Components
+@import 'partials/buttons';
 @import 'partials/footer';
 @import 'partials/header';
 @import 'partials/menus';
