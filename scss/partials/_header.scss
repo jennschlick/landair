@@ -4,7 +4,7 @@
 
 .header,
 .top {
-  
+
   ul, li {
     list-style: none;
     margin: 0;
@@ -99,14 +99,6 @@
     }
   }
 
-  a {
-    color: $dark-blue;
-
-    &:hover {
-      color: $medium-blue;
-    }
-  }
-
   .logo {
     height: auto;
     width: 225px;
@@ -114,10 +106,10 @@
 
   .textwidget {
     p {
-      background: url(../img/icon-phone.png) center left no-repeat;
+      background: url(../img/icon-phone.png) left 2px no-repeat;
       background-size: 25px auto;
       display: inline-block;
-      line-height: 25px;
+      line-height: 30px;
       padding-left: 35px;
     }
   }
