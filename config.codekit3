@@ -212,6 +212,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/icon-quote.png": {
+		"ft": 32768,
+		"iS": 620,
+		"oA": 0,
+		"oAP": "/img/icon-quote.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/landair-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -241,20 +252,20 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/page-home.php": {
+	"/page-21.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/page-home.php",
+		"oAP": "/page-21.php",
 		"oF": 0
 		},
-	"/page-styles.php": {
+	"/page-8.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/page-styles.php",
+		"oAP": "/page-8.php",
 		"oF": 0
 		},
 	"/page.php": {
