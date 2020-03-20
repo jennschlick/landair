@@ -106,11 +106,32 @@
 
   .textwidget {
     p {
-      background: url(../img/icon-phone.png) left 2px no-repeat;
-      background-size: 25px auto;
-      display: inline-block;
-      line-height: 30px;
-      padding-left: 35px;
+      margin: 0;
+
+      a {
+        display: inline-block;
+        line-height: 1;
+        padding-left: 33px;
+        position: relative;
+
+        &:before {
+          background: url(../img/icon-phone.png) center center no-repeat;
+          background-size: contain;
+          content: '';
+          height: 25px;
+          position: absolute;
+            top: -6px;
+            left: 0;
+          transition: all .2s;
+          width: 25px;
+        }
+
+        &:hover {
+          &:before {
+            transform: scale(1.15);
+          }
+        }
+      }
     }
   }
 }
