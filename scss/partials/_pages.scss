@@ -1,0 +1,50 @@
+/*-----------------------------------------------------------------------------------*/
+/* Pages
+/*-----------------------------------------------------------------------------------*/
+
+article {
+  header {
+    background: $dark-blue;
+    color: $white;
+
+    @include media-breakpoint-up(md) {
+      position: relative;
+    }
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-top: ($spacer / 2);
+      margin-bottom: 0;
+    }
+
+    .container {
+      &:first-of-type {
+        @include media-breakpoint-up(md) {
+          position: absolute;
+            top: 50%;
+            left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+        }
+      }
+    }
+
+    .container-fluid {
+      div[class*="col"] {
+        &:last-of-type {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.container {
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
