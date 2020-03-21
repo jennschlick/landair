@@ -8,5 +8,6 @@ register_nav_menus(
 		'top'	=>	__( 'Top Menu', 'landair' ),
 		'main'	=>	__( 'Main Menu', 'landair' ),
 		'footer'	=>	__( 'Footer Menu', 'landair' ),
+		'page-sidebar-menu'	=>	__( 'Page Sidebar Menu', 'landair' ),
 	)
 );
