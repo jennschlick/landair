@@ -17,6 +17,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/acf-json/group_5e7609365dd0e.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/acf-json/group_5e7609365dd0e-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -178,6 +186,17 @@
 		"oA": 0,
 		"oAP": "/header.php",
 		"oF": 0
+		},
+	"/img/header-default-image.jpg": {
+		"ft": 16384,
+		"iS": 129121,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/header-default-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/icon-arrow-light.png": {
 		"ft": 32768,
@@ -1531,6 +1550,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/partials/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/partials/_pages.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_pages.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
