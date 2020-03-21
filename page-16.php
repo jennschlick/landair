@@ -10,7 +10,7 @@
 	<?php while ( have_posts() ) : the_post(); ?>
 
 		<?php if(get_field('home_section_1_image') || get_field('home_section_1_content')) { ?>
-			<div class="home-section-1 text-center"<?php if(get_field('home_section_1_image')) { ?> style="background-image: url(<?php the_field('home_section_1_image'); ?>);"<?php } ?>>
+			<div class="home-section home-section-1 text-center"<?php if(get_field('home_section_1_image')) { ?> style="background-image: url(<?php the_field('home_section_1_image'); ?>);"<?php } ?>>
 				<?php if(get_field('home_section_1_image')) { ?><img src="<?php the_field('home_section_1_image'); ?>" class="img-fluid d-block mb-5 mb-md-0" alt=""><?php } ?>
 				<?php if(get_field('home_section_1_content')) { ?>
 					<div class="container d-flex flex-column align-items-center justify-content-center">
@@ -21,7 +21,7 @@
 		<?php } ?>
 
 		<?php if(get_field('home_section_2_image') || get_field('home_section_2_content')) { ?>
-			<div class="home-section-2 py-5">
+			<div class="home-section home-section-2 py-6">
 				<div class="container">
   				<div class="row align-items-lg-center justify-content-center">
 						<?php if(get_field('home_section_2_image')) { ?>
@@ -40,16 +40,16 @@
 		<?php } ?>
 
 		<?php if(get_field('home_section_3_content')) { ?>
-			<div class="home-section-3 text-center">
+			<div class="home-section home-section-3 text-center">
 				<div class="container-fluid">
 					<div class="row align-items-stretch">
 						<?php if(get_field('home_section_3_content')) { ?>
-							<div class="col-md-6 home-section-3-col-1 py-5 d-flex flex-column justify-content-center">
+							<div class="col-md-6 home-section-3-col-1 py-6 d-flex flex-column justify-content-center">
 								<?php the_field('home_section_3_content'); ?>
 							</div>
 						<?php } ?>
 						<?php if(get_field('home_section_3_icon_1_image') || get_field('home_section_3_icon_1_content') || get_field('home_section_3_icon_2_image') || get_field('home_section_3_icon_2_content') || get_field('home_section_3_icon_3_image') || get_field('home_section_3_icon_3_content') || get_field('home_section_3_icon_4_image') || get_field('home_section_3_icon_4_content')) { ?>
-							<div class="col-md-6 home-section-3-col-2 py-5 d-flex flex-column justify-content-center">
+							<div class="col-md-6 home-section-3-col-2 py-6 d-flex flex-column justify-content-center">
 								<div class="container-fluid">
 									<div class="row">
 										<?php if(get_field('home_section_3_icon_1_image') || get_field('home_section_3_icon_1_content')) { ?>
@@ -104,14 +104,14 @@
 		<?php } ?>
 
 		<?php if(get_field('home_section_4_title') || get_field('home_section_4_column_1_image') || get_field('home_section_4_column_1_content') || get_field('home_section_4_column_2_image') || get_field('home_section_4_column_2_content')) { ?>
-			<div class="home-section-4 text-center">
+			<div class="home-section home-section-4 py-6 text-center">
 				<?php if(get_field('home_section_4_title')) { ?>
 					<h2><?php the_field('home_section_4_title'); ?></h2>
 				<?php } ?>
 				<div class="container-fluid">
 					<div class="row justify-content-center">
 						<?php if(get_field('home_section_4_column_1_image') || get_field('home_section_4_column_1_content')) { ?>
-							<div class="col-md-4 mb-4 mb-md-0">
+							<div class="col-md-4 my-4 mb-md-0">
 								<?php if(get_field('home_section_4_column_1_image')) { ?>
 									<a href="<?php echo esc_url(get_page_link(68)); ?>"><img src="<?php the_field('home_section_4_column_1_image'); ?>" class="mt-md-4 mb-4" alt=""></a>
 								<?php } ?>
@@ -121,7 +121,7 @@
 							</div>
 						<?php } ?>
 						<?php if(get_field('home_section_4_column_2_image') || get_field('home_section_4_column_2_content')) { ?>
-							<div class="col-md-4">
+							<div class="col-md-4 mt-4">
 								<?php if(get_field('home_section_4_column_2_image')) { ?>
 									<a href="<?php echo esc_url(get_page_link(68)); ?>"><img src="<?php the_field('home_section_4_column_2_image'); ?>" class="mt-md-4 mb-4" alt=""></a>
 								<?php } ?>
@@ -136,7 +136,7 @@
 		<?php } ?>
 
 		<?php if(get_field('home_section_5_image') || get_field('home_section_5_content')) { ?>
-			<div class="home-section-5">
+			<div class="home-section home-section-5 py-6">
 				<div class="container-fluid">
 					<div class="row justify-content-center">
 						<?php if(get_field('home_section_5_image')) { ?>
@@ -155,7 +155,7 @@
 		<?php } ?>
 
 		<?php if(get_field('home_section_6_title') || get_field('home_section_6_column_1_content') || get_field('home_section_6_column_2_content')) { ?>
-			<div class="home-section-6 text-center">
+			<div class="home-section home-section-6 pb-6 text-center">
 				<?php if(get_field('home_section_6_title')) { ?>
 					<h2><?php the_field('home_section_6_title'); ?></h2>
 				<?php } ?>
