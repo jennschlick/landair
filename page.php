@@ -6,13 +6,14 @@
 		<article>
 			<header>
 				<div class="container">
-					<div class="row">
-						<div class="col-md-5 py-5">
+					<div class="row justify-content-center">
+						<div class="col-md-6 py-5">
 							<h1><?php the_title(); ?></h1>
 							<?php if(get_field('page_subtitle')) { ?>
 								<p><?php the_field('page_subtitle'); ?></p>
 							<?php } ?>
 						</div>
+						<div class="col-md-4"></div>
 					</div>
 				</div>
 				<div class="container-fluid">
@@ -29,7 +30,19 @@
 				</div>
 			</header>
 			<div class="container py-5">
-				<?php the_content(); ?>
+				<div class="row justify-content-center">
+					<div class="col-md-6 mb-5 mb-md-0">
+						<?php the_content(); ?>
+					</div>
+					<div class="col-md-4">
+						<?php if ( is_active_sidebar('page-sidebar')) : ?>
+				      <div class="mb-4">
+								<?php dynamic_sidebar('page-sidebar'); ?>
+							</div>
+				    <?php endif; ?>
+						<?php wp_nav_menu(array('theme_location' => 'page-sidebar-menu', 'container' => '')); ?>
+					</div>
+				</div>
 			</div>
 		</article>
 
