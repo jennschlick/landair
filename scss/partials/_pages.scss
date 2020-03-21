@@ -2,6 +2,12 @@
 /* Pages
 /*-----------------------------------------------------------------------------------*/
 
+.container {
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
 article {
   header {
     background: $dark-blue;
@@ -41,10 +47,40 @@ article {
       }
     }
   }
+
+  > .container {
+    div {
+      &:nth-child(2) {
+        @include media-breakpoint-up(md) {
+          padding-left: ($spacer * 3);
+        }
+      }
+    }
+  }
 }
 
-.container {
-  *:last-child {
-    margin-bottom: 0;
+#menu-page-sidebar-menu {
+  &, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    &:not(:last-child) {
+      margin-bottom: ($spacer * 1.5);
+    }
+  }
+
+  a {
+    border-bottom: 4px solid $medium-blue;
+    color: $dark-blue;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $medium-blue;
+    }
   }
 }
