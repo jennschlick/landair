@@ -140,8 +140,8 @@
 				<div class="container-fluid">
 					<div class="row justify-content-center">
 						<?php if(get_field('home_section_5_image')) { ?>
-							<div class="col-md-3">
-								<img src="<?php the_field('home_section_5_image'); ?>" class="mb-5 mb-md-0" alt="">
+							<div class="col-md-4">
+								<img src="<?php the_field('home_section_5_image'); ?>" class="img-fluid w-75 mb-5 mb-md-0" alt="">
 							</div>
 						<?php } ?>
 						<?php if(get_field('home_section_5_content')) { ?>
