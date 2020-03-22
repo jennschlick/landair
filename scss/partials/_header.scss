@@ -32,7 +32,6 @@
   background: linear-gradient(0deg, $white 0%, $white 50%, $light-blue 50%, $light-blue 100%);
 
   @include media-breakpoint-up(md) {
-    padding-right: 40px;
     text-align: right;
   }
 
@@ -72,15 +71,6 @@
 }
 
 .header {
-  padding: 20px 40px;
-
-  @include media-breakpoint-up(md) {
-    display: flex;
-      align-items: center;
-      justify-content: space-between;
-    padding-bottom: 40px;
-  }
-
   ul {
     @include media-breakpoint-down(sm) {
       margin-top: 15px;

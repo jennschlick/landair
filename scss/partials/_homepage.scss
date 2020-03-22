@@ -35,7 +35,6 @@
 
   h2 {
     font-size: 57px;
-    font-weight: 900;
     margin-bottom: ($spacer * 3);
   }
 
@@ -53,10 +52,6 @@
 }
 
 .home-section-2 {
-  h2 {
-    font-size: 26px;
-  }
-
   img {
     max-width: 400px;
     width: 100%;
@@ -124,10 +119,6 @@
 .home-section-4 {
   background: $light-blue;
 
-  h2 {
-    font-size: 26px;
-  }
-
   h3 {
     font-size: 17px;
     margin-bottom: ($spacer);
@@ -165,17 +156,11 @@
   }
 
   img {
-    height: auto;
-    max-width: 400px;
-    width: 100%;
+
   }
 }
 
 .home-section-6 {
-  h2 {
-    font-size: 26px;
-  }
-
   blockquote {
     background: url(../img/icon-quote.png) top center no-repeat;
     background-size: auto 25px;
