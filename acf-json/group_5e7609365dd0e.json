@@ -1,6 +1,6 @@
 {
     "key": "group_5e7609365dd0e",
-    "title": "Page",
+    "title": "Custom Fields",
     "fields": [
         {
             "key": "field_5e760957f26c1",
@@ -29,6 +29,13 @@
                 "operator": "==",
                 "value": "page"
             }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
         ]
     ],
     "menu_order": 0,
@@ -48,5 +55,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1584801743
+    "modified": 1584879116
 }
