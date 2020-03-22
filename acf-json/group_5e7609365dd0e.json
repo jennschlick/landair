@@ -50,10 +50,9 @@
         "author",
         "format",
         "categories",
-        "tags",
         "send-trackbacks"
     ],
     "active": 1,
     "description": "",
-    "modified": 1584879116
+    "modified": 1584879679
 }
