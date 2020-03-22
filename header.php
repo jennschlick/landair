@@ -8,11 +8,11 @@
 </head>
 <body <?php body_class();?>>
 
-<div class="top">
+<div class="top px-5">
   <?php wp_nav_menu(array('theme_location' => 'top', 'container' => '')); ?>
 </div>
 
-<div class="header">
+<div class="header d-md-flex align-items-center justify-content-between px-5 pt-4 pb-5">
   <a href="<?php echo site_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landair-logo.svg" alt="<?php echo get_bloginfo('name'); ?>" class="logo"></a>
 
   <?php wp_nav_menu(array('theme_location' => 'main', 'container' => '')); ?>
