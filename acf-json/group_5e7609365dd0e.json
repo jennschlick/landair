@@ -49,10 +49,9 @@
         "comments",
         "author",
         "format",
-        "categories",
         "send-trackbacks"
     ],
     "active": 1,
     "description": "",
-    "modified": 1584879679
+    "modified": 1584879909
 }
