@@ -13,7 +13,7 @@
 								<p><?php the_field('page_subtitle'); ?></p>
 							<?php } ?>
 						</div>
-						<div class="col-md-4"></div>
+						<div class="col-md-6"></div>
 					</div>
 				</div>
 				<div class="container-fluid">
@@ -31,7 +31,7 @@
 			</header>
 			<div class="container py-5">
 				<div class="row justify-content-center">
-					<div class="col-md-6 mb-5 mb-md-0">
+					<div class="col-md-8 mb-5 mb-md-0">
 						<?php the_content(); ?>
 					</div>
 					<div class="col-md-4">
@@ -53,7 +53,7 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 py-5">
+					<div class="col-md-6 py-5">
 						<h1>404 &mdash; Page not found</h1>
 					</div>
 				</div>
