@@ -8,16 +8,24 @@
 </head>
 <body <?php body_class();?>>
 
-<div class="top px-5">
+<div class="top px-3 px-md-5">
   <?php wp_nav_menu(array('theme_location' => 'top', 'container' => '')); ?>
 </div>
 
-<div class="header d-md-flex align-items-center justify-content-between px-5 pt-4 pb-5">
+<div class="header d-flex align-items-center justify-content-between px-3 py-4 px-md-5 pb-md-5">
   <a href="<?php echo site_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landair-logo.svg" alt="<?php echo get_bloginfo('name'); ?>" class="logo"></a>
 
-  <?php wp_nav_menu(array('theme_location' => 'main', 'container' => '')); ?>
+  <input type="checkbox" id="main-menu-toggle-checkbox" />
+  <label for="main-menu-toggle-checkbox" class="main-menu-toggle">
+  	<span></span>
+  	<span></span>
+  	<span></span>
+  </label>
 
-  <?php if ( is_active_sidebar('header')) : ?>
-    <?php dynamic_sidebar('header'); ?>
-  <?php endif; ?>
+  <div class="main-menu-wrapper d-md-flex align-items-center justify-content-between">
+    <?php wp_nav_menu(array('theme_location' => 'main', 'container' => '')); ?>
+    <?php if ( is_active_sidebar('header')) : ?>
+      <?php dynamic_sidebar('header'); ?>
+    <?php endif; ?>
+  </div>
 </div>
