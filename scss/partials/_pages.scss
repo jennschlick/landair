@@ -13,12 +13,6 @@ article {
     background: $dark-blue;
     color: $white;
 
-    @include media-breakpoint-up(md) {
-      max-height: 330px;
-      overflow: hidden;
-      position: relative;
-    }
-
     h1 {
       margin-bottom: 0;
     }
