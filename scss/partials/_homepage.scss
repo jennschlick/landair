@@ -34,14 +34,24 @@
   }
 
   h2 {
-    font-size: 57px;
     margin-bottom: ($spacer * 3);
+
+    @include media-breakpoint-up(md) {
+      font-size: 57px;
+    }
   }
 
   h3 {
-    font-size: 22px;
     font-weight: normal;
     margin-bottom: ($spacer / 2);
+
+    @include media-breakpoint-down(sm) {
+      font-size: $default-font-size;
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: 22px;
+    }
   }
 
   img {
@@ -106,13 +116,27 @@
 
 .home-section-3-col-1 {
   background: $dark-blue;
+
+  > div {
+    @include media-breakpoint-up(md) {
+      max-width: 350px;
+    }
+  }
 }
 
 .home-section-3-col-2 {
   background: $medium-blue;
 
   img {
-    max-height: 65px;
+    max-height: 55px;
+  }
+
+  div[class*="col-"] {
+    > div {
+      @include media-breakpoint-up(md) {
+        max-width: 180px;
+      }
+    }
   }
 }
 
@@ -138,6 +162,14 @@
       }
     }
   }
+
+  div[class*="col-"] {
+    > div {
+      @include media-breakpoint-up(md) {
+        max-width: 300px;
+      }
+    }
+  }
 }
 
 .home-section-5 {
@@ -153,10 +185,6 @@
       display: block;
       font-size: 26px;
     }
-  }
-
-  img {
-
   }
 }
 
@@ -174,5 +202,13 @@
     font-weight: 900;
     margin-top: ($spacer / 2);
     text-transform: uppercase;
+  }
+
+  div[class*="col-"] {
+    > div {
+      @include media-breakpoint-up(md) {
+        max-width: 300px;
+      }
+    }
   }
 }
