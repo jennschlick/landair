@@ -1,4 +1,4 @@
-<svg id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308.34 382.64">
+<svg id="map" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308.34 382.64">
   <defs>
     <style>
       .cls-1, .cls-11, .cls-4, .cls-5, .cls-6 {
@@ -134,7 +134,7 @@
   </g>
   <!-- Windsor -->
   <g class="tooltip-group">
-    <a xlink:href="#windsor">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#windsor">
       <g class="cls-7">
         <path class="cls-8" d="M185.45,179.43a7.24,7.24,0,1,1-8.31-6,7.25,7.25,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
@@ -164,7 +164,7 @@
   </g>
   <!-- Houlton -->
   <g class="tooltip-group">
-    <a xlink:href="#houlton">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#houlton">
       <g class="cls-7">
         <path class="cls-8" d="M260.08,35.75a8.83,8.83,0,1,1-9.55-8,8.83,8.83,0,0,1,9.55,8.05" transform="translate(0 0)"/>
       </g>
@@ -196,7 +196,7 @@
   </g>
   <!-- Williston -->
   <g class="tooltip-group">
-    <a xlink:href="#williston">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#williston">
       <g class="cls-7">
         <path class="cls-8" d="M164.8,149.46a7.24,7.24,0,1,1-8.31-6,7.23,7.23,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
@@ -228,7 +228,7 @@
   </g>
   <!-- Buffalo -->
   <g class="tooltip-group">
-    <a xlink:href="#buffalo">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#buffalo">
       <g class="cls-7">
         <path class="cls-8" d="M22.17,272.92a7.24,7.24,0,1,1,8.31,6,7.23,7.23,0,0,1-8.31-6" transform="translate(0 0)"/>
       </g>
@@ -260,7 +260,7 @@
   </g>
   <!-- Syracuse -->
   <g class="tooltip-group">
-    <a xlink:href="#syracuse">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#syracuse">
       <g class="cls-7">
         <path class="cls-8" d="M99.81,252.88a7.24,7.24,0,1,1-8.31-6,7.22,7.22,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
@@ -293,7 +293,7 @@
   </g>
   <!-- Albany -->
   <g class="tooltip-group">
-    <a xlink:href="#albany">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#albany">
       <g class="cls-7">
         <path class="cls-8" d="M168.18,227.57a7.24,7.24,0,1,1-8.31-6,7.24,7.24,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
@@ -324,7 +324,7 @@
   </g>
   <!-- South Plainfield -->
   <g class="tooltip-group">
-    <a xlink:href="#southplainfield">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#southplainfield">
       <g class="cls-7">
         <path class="cls-8" d="M171.27,303.46a7.24,7.24,0,1,1-8.31-6,7.23,7.23,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
@@ -374,7 +374,7 @@
   </g>
   <!-- Springfield -->
   <g class="tooltip-group">
-    <a xlink:href="#springfield">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#springfield">
       <path class="cls-6" d="M193.41,236.91a1.91,1.91,0,1,1-2.19-1.57A1.91,1.91,0,0,1,193.41,236.91Z" transform="translate(0 0)"/>
       <g class="cls-7">
         <path class="cls-8" d="M184.44,238.71a7.24,7.24,0,1,1,8.31,6,7.23,7.23,0,0,1-8.31-6" transform="translate(0 0)"/>
@@ -413,7 +413,7 @@
   </g>
   <!-- Londonderry -->
   <g class="tooltip-group">
-    <a xlink:href="#londonderry">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#londonderry">
       <g class="cls-7">
         <path class="cls-8" d="M230,186.22a7.24,7.24,0,1,1-8.31-6,7.23,7.23,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
@@ -447,7 +447,7 @@
   </g>
   <!-- Scarborough -->
   <g class="tooltip-group">
-    <a xlink:href="#scarborough">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#scarborough">
       <g class="cls-7">
         <path class="cls-8" d="M237.71,145.17a7.24,7.24,0,1,1-8.31-6,7.24,7.24,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
@@ -483,7 +483,7 @@
   </g>
   <!-- Pittsfield -->
   <g class="tooltip-group">
-    <a xlink:href="#pittsfield">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#pittsfield">
       <g class="cls-7">
         <path class="cls-8" d="M257.82,107.75a7.24,7.24,0,1,1-8.31-6,7.23,7.23,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
@@ -518,7 +518,7 @@
   </g>
   <!-- Boston -->
   <g class="tooltip-group">
-    <a xlink:href="#boston">
+    <a xlink:href="<?php echo do_shortcode('[permalink id=22]'); ?>#boston">
       <g class="cls-7">
         <path class="cls-8" d="M245,211.36a7.24,7.24,0,1,1-8.31-6,7.23,7.23,0,0,1,8.31,6" transform="translate(0 0)"/>
       </g>
