@@ -271,12 +271,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/map.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/map.php",
+		"oF": 0
+		},
 	"/page-16.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/page-16.php",
+		"oF": 0
+		},
+	"/page-22.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-22.php",
 		"oF": 0
 		},
 	"/page-full.php": {
@@ -1528,6 +1544,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/partials/_map.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_map.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/partials/_menus.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1576,6 +1605,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/partials/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/partials/_tables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_tables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
