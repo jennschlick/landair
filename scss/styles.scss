@@ -12,12 +12,16 @@
 @import 'partials/fonts';
 @import 'partials/variables';
 
+// Typography
+@import 'partials/typography';
+
 // Components
 @import 'partials/buttons';
 @import 'partials/footer';
 @import 'partials/header';
+@import 'partials/map';
 @import 'partials/menus';
-@import 'partials/typography';
+@import 'partials/tables';
 
 // Pages
 @import 'partials/homepage';
