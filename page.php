@@ -40,7 +40,6 @@
 								<?php dynamic_sidebar('page-sidebar'); ?>
 							</div>
 				    <?php endif; ?>
-						<?php wp_nav_menu(array('theme_location' => 'page-sidebar-menu', 'container' => '')); ?>
 					</div>
 				</div>
 			</div>
