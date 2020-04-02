@@ -26,7 +26,7 @@
   				<div class="row align-items-lg-center justify-content-center">
 						<?php if(get_field('home_section_2_image')) { ?>
 							<div class="col-md-5">
-								<a href="<?php echo esc_url(get_page_link(70)); ?>"><img src="<?php the_field('home_section_2_image'); ?>" class="img-fluid mx-auto d-block mb-5 mb-md-0" alt=""></a>
+								<a href="<?php echo esc_url(get_page_link(22)); ?>"><img src="<?php the_field('home_section_2_image'); ?>" class="img-fluid mx-auto d-block mb-5 mb-md-0" alt=""></a>
 							</div>
 						<?php } ?>
 						<?php if(get_field('home_section_2_content')) { ?>
