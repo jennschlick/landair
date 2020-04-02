@@ -58,7 +58,7 @@
 											<div class="col-md-6 mb-5 mb-md-0 d-flex flex-column align-items-center">
 												<div>
 													<?php if(get_field('home_section_3_icon_1_image')) { ?>
-														<a href="<?php echo esc_url(get_page_link(68)); ?>"><img src="<?php the_field('home_section_3_icon_1_image'); ?>" class="mb-4" alt=""></a>
+														<a href="<?php echo esc_url(get_page_link(20)); ?>"><img src="<?php the_field('home_section_3_icon_1_image'); ?>" class="mb-4" alt=""></a>
 													<?php } ?>
 													<?php if(get_field('home_section_3_icon_1_content')) { ?>
 														<?php the_field('home_section_3_icon_1_content'); ?>
@@ -70,7 +70,7 @@
 											<div class="col-md-6 mb-5 mb-md-0 d-flex flex-column align-items-center">
 												<div>
 													<?php if(get_field('home_section_3_icon_2_image')) { ?>
-														<a href="<?php echo esc_url(get_page_link(68)); ?>"><img src="<?php the_field('home_section_3_icon_2_image'); ?>" class="mb-4" alt=""></a>
+														<a href="<?php echo esc_url(get_page_link(20)); ?>"><img src="<?php the_field('home_section_3_icon_2_image'); ?>" class="mb-4" alt=""></a>
 													<?php } ?>
 													<?php if(get_field('home_section_3_icon_2_content')) { ?>
 														<?php the_field('home_section_3_icon_2_content'); ?>
@@ -84,7 +84,7 @@
 											<div class="col-md-6 mb-5 mb-md-0 d-flex flex-column align-items-center">
 												<div>
 													<?php if(get_field('home_section_3_icon_3_image')) { ?>
-														<a href="<?php echo esc_url(get_page_link(68)); ?>"><img src="<?php the_field('home_section_3_icon_3_image'); ?>" class="mt-md-5 mb-4" alt=""></a>
+														<a href="<?php echo esc_url(get_page_link(20)); ?>"><img src="<?php the_field('home_section_3_icon_3_image'); ?>" class="mt-md-5 mb-4" alt=""></a>
 													<?php } ?>
 													<?php if(get_field('home_section_3_icon_3_content')) { ?>
 														<?php the_field('home_section_3_icon_3_content'); ?>
@@ -96,7 +96,7 @@
 											<div class="col-md-6 d-flex flex-column align-items-center">
 												<div>
 													<?php if(get_field('home_section_3_icon_4_image')) { ?>
-														<a href="<?php echo esc_url(get_page_link(68)); ?>"><img src="<?php the_field('home_section_3_icon_4_image'); ?>" class="mt-md-5 mb-4" alt=""></a>
+														<a href="<?php echo esc_url(get_page_link(20)); ?>"><img src="<?php the_field('home_section_3_icon_4_image'); ?>" class="mt-md-5 mb-4" alt=""></a>
 													<?php } ?>
 													<?php if(get_field('home_section_3_icon_4_content')) { ?>
 														<?php the_field('home_section_3_icon_4_content'); ?>
