@@ -1,0 +1,62 @@
+/*-----------------------------------------------------------------------------------*/
+/* Forms
+/*-----------------------------------------------------------------------------------*/
+
+form {
+  label {
+    display: block;
+    margin-bottom: ($spacer / 2);
+  }
+
+  p {
+    margin: 0;
+  }
+
+  span.required {
+    color: #f00;
+  }
+
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  textarea {
+    background: $white;
+    border: 2px solid $light-blue;
+    color: $default-font-color;
+    display: block;
+    font-family: $default-font-family;
+    font-size: $default-font-size;
+    line-height: $default-line-height;
+    max-width: 400px;
+    padding: ($spacer / 2);
+    width: 100%;
+
+    &:focus {
+      border-color: $medium-blue;
+      outline: 0;
+    }
+  }
+
+  .wpcf7-not-valid-tip {
+    display: block;
+    margin-top: ($spacer / 2);
+  }
+
+  .wpcf7-response-output {
+    border: 0;
+    margin: ($spacer) 0 0 0;
+    padding: 0;
+
+    &.wpcf7-validation-errors {
+      background: #f00;
+      color: $white;
+      padding: ($spacer / 2) ($spacer);
+    }
+
+    &.wpcf7-mail-sent-ok {
+      background: $dark-blue;
+      color: $white;
+      padding: ($spacer / 2) ($spacer);
+    }
+  }
+}

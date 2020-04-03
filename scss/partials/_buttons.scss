@@ -2,8 +2,11 @@
 /* Buttons
 /*-----------------------------------------------------------------------------------*/
 
-.btn {
+.btn,
+button,
+input[type="submit"] {
   background: $orange;
+  border: 0;
   color: $white;
   display: inline-block;
   font-size: 15px;
