@@ -70,6 +70,21 @@
             "mime_types": ""
         },
         {
+            "key": "field_5e87279c9c23c",
+            "label": "Section 2 image link",
+            "name": "home_section_2_image_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
             "key": "field_5e6b61ae521b4",
             "label": "Section 2 content",
             "name": "home_section_2_content",
@@ -132,6 +147,21 @@
             "mime_types": ""
         },
         {
+            "key": "field_5e8728192dd04",
+            "label": "Section 3 icon 1 image link",
+            "name": "home_section_3_icon_1_image_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
             "key": "field_5e6b778848df0",
             "label": "Section 3 icon 1 content",
             "name": "home_section_3_icon_1_content",
@@ -173,6 +203,21 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_5e87282b2dd05",
+            "label": "Section 3 icon 2 image link",
+            "name": "home_section_3_icon_2_image_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
         },
         {
             "key": "field_5e6b77bf48df4",
@@ -218,6 +263,21 @@
             "mime_types": ""
         },
         {
+            "key": "field_5e8728352dd06",
+            "label": "Section 3 icon 3 image link",
+            "name": "home_section_3_icon_3_image_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
             "key": "field_5e6b77c948df5",
             "label": "Section 3 icon 3 content",
             "name": "home_section_3_icon_3_content",
@@ -259,6 +319,21 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_5e87283d2dd07",
+            "label": "Section 3 icon 4 image link",
+            "name": "home_section_3_icon_4_image_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
         },
         {
             "key": "field_5e6b77dd48df6",
@@ -323,6 +398,21 @@
             "mime_types": ""
         },
         {
+            "key": "field_5e87293bf6278",
+            "label": "Section 4 column 1 image link",
+            "name": "home_section_4_column_1_image_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
             "key": "field_5e6b625be11be",
             "label": "Section 4 column 1 content",
             "name": "home_section_4_column_1_content",
@@ -364,6 +454,21 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_5e872962f6279",
+            "label": "Section 4 column 2 image link",
+            "name": "home_section_4_column_2_image_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
         },
         {
             "key": "field_5e74b70c472cb",
@@ -516,5 +621,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1584719717
+    "modified": 1585916271
 }

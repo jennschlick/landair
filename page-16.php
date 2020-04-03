@@ -26,7 +26,7 @@
   				<div class="row align-items-lg-center justify-content-center">
 						<?php if(get_field('home_section_2_image')) { ?>
 							<div class="col-md-5">
-								<a href="<?php echo esc_url(get_page_link(22)); ?>"><img src="<?php the_field('home_section_2_image'); ?>" class="img-fluid mx-auto d-block mb-5 mb-md-0" alt=""></a>
+								<?php if(get_field('home_section_2_image_link')) { ?><a href="<?php the_field('home_section_2_image_link'); ?>"><?php } ?><img src="<?php the_field('home_section_2_image'); ?>" class="img-fluid mx-auto d-block mb-5 mb-md-0" alt=""><?php if(get_field('home_section_2_image_link')) { ?></a><?php } ?>
 							</div>
 						<?php } ?>
 						<?php if(get_field('home_section_2_content')) { ?>
@@ -58,7 +58,7 @@
 											<div class="col-md-6 mb-5 mb-md-0 d-flex flex-column align-items-center">
 												<div>
 													<?php if(get_field('home_section_3_icon_1_image')) { ?>
-														<a href="<?php echo esc_url(get_page_link(20)); ?>"><img src="<?php the_field('home_section_3_icon_1_image'); ?>" class="mb-4" alt=""></a>
+														<?php if(get_field('home_section_3_icon_1_image_link')) { ?><a href="<?php the_field('home_section_3_icon_1_image_link'); ?>"><?php } ?><img src="<?php the_field('home_section_3_icon_1_image'); ?>" class="mb-4" alt=""><?php if(get_field('home_section_3_icon_1_image_link')) { ?></a><?php } ?>
 													<?php } ?>
 													<?php if(get_field('home_section_3_icon_1_content')) { ?>
 														<?php the_field('home_section_3_icon_1_content'); ?>
@@ -70,7 +70,7 @@
 											<div class="col-md-6 mb-5 mb-md-0 d-flex flex-column align-items-center">
 												<div>
 													<?php if(get_field('home_section_3_icon_2_image')) { ?>
-														<a href="<?php echo esc_url(get_page_link(20)); ?>"><img src="<?php the_field('home_section_3_icon_2_image'); ?>" class="mb-4" alt=""></a>
+														<?php if(get_field('home_section_3_icon_2_image_link')) { ?><a href="<?php the_field('home_section_3_icon_2_image_link'); ?>"><?php } ?><img src="<?php the_field('home_section_3_icon_2_image'); ?>" class="mb-4" alt=""><?php if(get_field('home_section_3_icon_2_image_link')) { ?></a><?php } ?>
 													<?php } ?>
 													<?php if(get_field('home_section_3_icon_2_content')) { ?>
 														<?php the_field('home_section_3_icon_2_content'); ?>
@@ -84,7 +84,7 @@
 											<div class="col-md-6 mb-5 mb-md-0 d-flex flex-column align-items-center">
 												<div>
 													<?php if(get_field('home_section_3_icon_3_image')) { ?>
-														<a href="<?php echo esc_url(get_page_link(20)); ?>"><img src="<?php the_field('home_section_3_icon_3_image'); ?>" class="mt-md-5 mb-4" alt=""></a>
+														<?php if(get_field('home_section_3_icon_3_image_link')) { ?><a href="<?php the_field('home_section_3_icon_3_image_link'); ?>"><?php } ?><img src="<?php the_field('home_section_3_icon_3_image'); ?>" class="mt-md-5 mb-4" alt=""><?php if(get_field('home_section_3_icon_3_image_link')) { ?></a><?php } ?>
 													<?php } ?>
 													<?php if(get_field('home_section_3_icon_3_content')) { ?>
 														<?php the_field('home_section_3_icon_3_content'); ?>
@@ -96,7 +96,7 @@
 											<div class="col-md-6 d-flex flex-column align-items-center">
 												<div>
 													<?php if(get_field('home_section_3_icon_4_image')) { ?>
-														<a href="<?php echo esc_url(get_page_link(20)); ?>"><img src="<?php the_field('home_section_3_icon_4_image'); ?>" class="mt-md-5 mb-4" alt=""></a>
+														<?php if(get_field('home_section_3_icon_4_image_link')) { ?><a href="<?php the_field('home_section_3_icon_4_image_link'); ?>"><?php } ?><img src="<?php the_field('home_section_3_icon_4_image'); ?>" class="mt-md-5 mb-4" alt=""><?php if(get_field('home_section_3_icon_4_image_link')) { ?></a><?php } ?>
 													<?php } ?>
 													<?php if(get_field('home_section_3_icon_4_content')) { ?>
 														<?php the_field('home_section_3_icon_4_content'); ?>
@@ -124,7 +124,7 @@
 							<div class="col-md-4 my-4 mb-md-0 d-flex flex-column align-items-center">
 								<div>
 									<?php if(get_field('home_section_4_column_1_image')) { ?>
-										<a href="<?php echo esc_url(get_page_link(68)); ?>"><img src="<?php the_field('home_section_4_column_1_image'); ?>" class="mt-md-4 mb-4" alt=""></a>
+										<?php if(get_field('home_section_4_column_1_image_link')) { ?><a href="<?php the_field('home_section_4_column_1_image_link'); ?>"><?php } ?><img src="<?php the_field('home_section_4_column_1_image'); ?>" class="mt-md-4 mb-4" alt=""><?php if(get_field('home_section_4_column_1_image_link')) { ?></a><?php } ?>
 									<?php } ?>
 									<?php if(get_field('home_section_4_column_1_content')) { ?>
 										<?php the_field('home_section_4_column_1_content'); ?>
@@ -136,7 +136,7 @@
 							<div class="col-md-4 mt-4 d-flex flex-column align-items-center">
 								<div>
 									<?php if(get_field('home_section_4_column_2_image')) { ?>
-										<a href="<?php echo esc_url(get_page_link(68)); ?>"><img src="<?php the_field('home_section_4_column_2_image'); ?>" class="mt-md-4 mb-4" alt=""></a>
+										<?php if(get_field('home_section_4_column_2_image_link')) { ?><a href="<?php the_field('home_section_4_column_2_image_link'); ?>"><?php } ?><img src="<?php the_field('home_section_4_column_2_image'); ?>" class="mt-md-4 mb-4" alt=""><?php if(get_field('home_section_4_column_2_image_link')) { ?></a><?php } ?>
 									<?php } ?>
 									<?php if(get_field('home_section_4_column_2_content')) { ?>
 										<?php the_field('home_section_4_column_2_content'); ?>
