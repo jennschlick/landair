@@ -1518,6 +1518,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/partials/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/partials/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1644,19 +1657,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/partials/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/partials/forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/partials/forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
