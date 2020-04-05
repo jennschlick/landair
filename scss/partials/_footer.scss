@@ -100,6 +100,8 @@
     }
 
     &[type=email] {
+      background: transparent;
+      border: 0;
       border-bottom: 4px solid $medium-blue;
       border-radius: 0;
       color: $white;
