@@ -5,7 +5,7 @@
 form {
   label {
     display: block;
-    margin-bottom: ($spacer / 2);
+    margin-bottom: ($spacer / 2.5);
   }
 
   p {
@@ -46,9 +46,13 @@ form {
     }
   }
 
+  textarea {
+    max-width: 100%;
+  }
+
   .wpcf7-not-valid-tip {
     display: block;
-    margin-top: ($spacer / 2);
+    margin-top: ($spacer / 2.5);
   }
 
   .wpcf7-response-output {
@@ -66,6 +70,34 @@ form {
       background: $dark-blue;
       color: $white;
       padding: ($spacer / 2) ($spacer);
+    }
+  }
+}
+
+.form-group {
+  margin-bottom: ($spacer * 1.5);
+}
+
+.wpcf7-form-control.wpcf7-checkbox {
+  .wpcf7-list-item {
+    display: block;
+    line-height: 1;
+    margin-left: 0;
+    margin-bottom: ($spacer / 1.5);
+
+    &.first {
+      margin-top: ($spacer / 1.5);
+    }
+
+    label {
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      margin-right: ($spacer / 4);
+      vertical-align: text-top;
     }
   }
 }

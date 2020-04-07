@@ -51,11 +51,8 @@
       text-transform: uppercase;
 
       &:hover {
-        color: $white;
-      }
-
-      &:hover {
         background: darken($medium-blue, 10%);
+        color: $white;
       }
 
       @include media-breakpoint-down(sm) {
@@ -85,7 +82,7 @@
 }
 
 .header {
-  
+
   .logo {
     height: auto;
     width: 225px;
