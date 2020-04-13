@@ -138,9 +138,9 @@
     </a>
     <g id="tooltip">
       <rect x="8" y="120" height="105" width="100"></rect>
-      <foreignObject x="23" y="135" height="105" width="85">
+      <foreignObject x="18" y="135" height="105" width="85">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Windsor, VT</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Windsor, VT</strong>800-639-3095<br>Windsor Industrial Park<br>272 Ruth Carney Dr.<br>Windsor, VT 05089
         </div>
       </foreignObject>
     </g>
@@ -172,7 +172,7 @@
       <rect x="125" y="0" height="105" width="100"></rect>
       <foreignObject x="140" y="15" height="105" width="85">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Houlton, ME</strong>800-639-3095<br>Houlton, ME<br>800-639-3095, x2502
+          <strong>Houlton, ME</strong>800-639-3095<br>Houlton, ME
         </div>
       </foreignObject>
     </g>
@@ -204,7 +204,7 @@
       <rect x="27" y="120" height="105" width="100"></rect>
       <foreignObject x="42" y="135" height="105" width="85">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Williston, VT</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Williston, VT</strong>800-639-3095<br>Griswold Industrial Park<br>59 Avenue C<br>P.O. Box 503<br>Williston, VT 05495
         </div>
       </foreignObject>
     </g>
@@ -236,7 +236,7 @@
       <rect x="5" y="285" height="105" width="100"></rect>
       <foreignObject x="20" y="300" height="105" width="85">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Buffalo, NY</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Buffalo, NY</strong>800-639-3095<br>4425 River Rd.<br>Tonawanda, NY 14150<br>
         </div>
       </foreignObject>
     </g>
@@ -269,7 +269,7 @@
       <rect x="-35" y="190" height="105" width="100"></rect>
       <foreignObject x="-20" y="205" height="105" width="85">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Syracuse, NY</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Syracuse, NY</strong>800-639-3095<br>110 Boss Rd.<br>Syracuse<br>NY 13211
         </div>
       </foreignObject>
     </g>
@@ -300,7 +300,7 @@
       <rect x="38" y="160" height="105" width="100"></rect>
       <foreignObject x="53" y="175" height="105" width="85">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Albany, NY</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Albany, NY</strong>800-639-3095<br>5 Apollo Drive<br>Colonie, NY 12205
         </div>
       </foreignObject>
     </g>
@@ -350,7 +350,7 @@
       <rect x="0" y="230" height="105" width="130"></rect>
       <foreignObject x="15" y="245" height="105" width="115">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>South Plainfield, NJ</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Clifton, NJ</strong>800-639-3095<br>499 River Rd<br>Clifton<br>NJ 07014
         </div>
       </foreignObject>
     </g>
@@ -389,7 +389,7 @@
       <rect x="45" y="200" height="105" width="110"></rect>
       <foreignObject x="60" y="215" height="105" width="95">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Springfield, MA</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Springfield, MA</strong>800-639-3095<br>305 Rocus St.<br>Springfield<br> MA 01104
         </div>
       </foreignObject>
     </g>
@@ -423,7 +423,7 @@
       <rect x="65" y="150" height="105" width="120"></rect>
       <foreignObject x="80" y="165" height="105" width="105">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Londonderry, NH</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Londonderry, NH</strong>800-639-3095<br>25 Commerce Ave<br>Londonderry <br>NH 03053
         </div>
       </foreignObject>
     </g>
@@ -459,13 +459,7 @@
       <rect x="70" y="115" height="105" width="120"></rect>
       <foreignObject x="85" y="130" height="105" width="105">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Scarborough, ME</strong>800-639-3095<br>9 Ginn Road<br>
-Scarborough, ME 04074<br>
-800-639-3095, x2404
-
-
-
-
+          <strong>Scarborough, ME</strong>800-639-3095<br>9 Ginn Road<br>Scarborough, ME 04074
         </div>
       </foreignObject>
     </g>
@@ -498,9 +492,9 @@ Scarborough, ME 04074<br>
     </a>
     <g id="tooltip">
       <rect x="140" y="60" height="105" width="100"></rect>
-      <foreignObject x="155" y="75" height="105" width="85">
+      <foreignObject x="152" y="75" height="105" width="85">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Pittsfield, ME</strong>800-639-3095<br>335 Industrial Park Rd.<br>Pittsfield, ME 04967<br>800-639-3095, x2502
+          <strong>Pittsfield, ME</strong>800-639-3095<br>335 Industrial Park Rd.<br>Pittsfield, ME 04967
         </div>
       </foreignObject>
     </g>
@@ -535,7 +529,7 @@ Scarborough, ME 04074<br>
       <rect x="112" y="175" height="105" width="100"></rect>
       <foreignObject x="127" y="190" height="105" width="85">
         <div xmlns="http://www.w3.org/1999/xhtml" class="tooltip-content">
-          <strong>Boston, MA</strong>800-123-4567<br>Address Line 1<br>Address Line 2<br>Address Line 3<br>City, State 12345
+          <strong>Boston, MA</strong>800-639-3095<br>600 Turnpike St.<br>Route 138<br>South Easton, MA 02375
         </div>
       </foreignObject>
     </g>
