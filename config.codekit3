@@ -242,15 +242,16 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/landair-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/landair-logo.svg",
+	"/img/landair-logo.png": {
+		"ft": 32768,
+		"iS": 62190,
+		"oA": 0,
+		"oAP": "/img/landair-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"oT": 1,
+		"q": 100
 		},
 	"/index.php": {
 		"cB": 0,
