@@ -220,6 +220,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/icon-linkedin.png": {
+		"ft": 32768,
+		"iS": 2612,
+		"oA": 0,
+		"oAP": "/img/icon-linkedin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/icon-phone.png": {
 		"ft": 32768,
 		"iS": 1656,
