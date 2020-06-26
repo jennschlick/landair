@@ -149,6 +149,9 @@
 
   @include media-breakpoint-down(sm) {
   	&:checked ~ .main-menu-toggle {
+      position: fixed;
+        top: 70px;
+        right: 20px;
   		transform: rotate(360deg);
   		transition: transform 250ms ease;
 
