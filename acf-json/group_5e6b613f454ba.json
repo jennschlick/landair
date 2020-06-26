@@ -588,6 +588,25 @@
             "toolbar": "full",
             "media_upload": 0,
             "delay": 0
+        },
+        {
+            "key": "field_5ef5d19693196",
+            "label": "Ticker",
+            "name": "ticker",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "text",
+            "media_upload": 0,
+            "toolbar": "full",
+            "delay": 0
         }
     ],
     "location": [
@@ -621,5 +640,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1585916271
+    "modified": 1593168301
 }
