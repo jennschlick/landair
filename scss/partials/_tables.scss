@@ -7,6 +7,10 @@ table {
     border: 0;
   }
 
+  thead {
+    background: $light-blue;
+  }
+
   tr {
     td, th {
       padding: ($spacer * 1.5);
